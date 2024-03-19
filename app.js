@@ -1,5 +1,5 @@
 // Class 2
-// Artimetic Operator
+// 1.Artimetic Operator
 
 // let a = 5;
 // let b = 2;
@@ -33,7 +33,7 @@
 // ++a pre increment
 
 
-// Assignment Operators to asign values
+//2. Assignment Operators to asign values
 //  = += -= *= %= **=
 
 // let a = 5;
@@ -43,7 +43,7 @@
 // console.log("a =",a) //9
 
 
-// compresion Operators to compare 2 values
+// 3.compresion Operators to compare 2 values
 
 // Equals t=o =     Equal to & type ===
 // Not equal to !=   Not equal & type !==
@@ -77,7 +77,7 @@
 
 // console.log("!(6<5)", !(6<5));
 
-// conditional Statments // agr condition ho jasy 18 k hon tw vote da sakty warna nhi
+// 4.conditional Statments // agr condition ho jasy 18 k hon tw vote da sakty warna nhi
 
 // *if Statment // kisi condition ko check krna
 
@@ -105,7 +105,7 @@
 // console.log(color);
 
 
-// *if else statment // agr if ki value fasle ho tw else chaly ga
+// *else statment // agr if ki value fasle ho tw else chaly ga
 
 // if (mode === "dark") {
 //     color = "black"
@@ -141,7 +141,7 @@
 // }
 // console.log(color);
 
-// ternary Operator: //asa operator jo tin operads pr kam kry
+// 5.ternary Operator: //asa operator jo tin operads pr kam kry
 // let age=25;
 // let result = age > 18? "adult" : "not adult";
 // console.log(result);
@@ -182,17 +182,18 @@
 //   }
 // console.log(Grade);
 
-// Loops
+// 6.Loops
 
 // For Loop
 
 // for (let i = 1; i<=5; i++){
 //   console.log("Nimra");
 // }
-
+// 
+// calculate sum of 1 to 5
 // let sum =0;
 // let num = 5;
-// for (let i = 0; i<=5; i++){
+// for (let i = 0; i<=num; i++){
 //   sum = sum + i; //sum = 15
   
 // }
@@ -238,6 +239,10 @@
 // size++;
 // }
 // console.log("string size =",size);
+
+
+// for in loop
+
 // let student = {
 //   name:"Nimra",
 //   age:20,
@@ -259,14 +264,23 @@
 
 //Q2 Create a game where you start with any random game number. Ask the user to keep gussing the game number until the user enter correct value.
 
-let gameNum = 15;
-let userNum = prompt("Guess any Number between 1 to 15")
-while(userNum !=gameNum){
-  userNum = prompt("Your Guess is wrong try again");
+// let gameNum = 15;
+// let userNum = prompt("Guess any Number between 1 to 15")
+// while(userNum !=gameNum){
+//   userNum = prompt("Your Guess is wrong try again");
+
+// }
+// console.log("Congratulation , you enter right number");
+
+let gameNum = 5;
+let userNum = prompt("enter num")
+for (i=0; i==!userNum; ){
+  
+  userNum = prompt("your guess is wrong try again")
+
+ 
 
 }
-console.log("Congratulation , you enter right number");
-
 
 
 
