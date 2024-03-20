@@ -4,7 +4,7 @@
 // let a = 5;
 // let b = 2;
 // console.log("a =", a,"b = ", b);
-   // console.log("a + b = " , a + b);
+// console.log("a + b = " , a + b);
 // console.log("a - b = " , a - b);
 // console.log("a * b = " , a * b);
 // console.log("a / b = " , a / b);
@@ -23,7 +23,7 @@
 //              
 
 // console.log("++a =",++a);
- 
+
 
 //  console.log("a++ =",a++);
 // //  console.log("a++ =",a);
@@ -195,11 +195,13 @@
 // let num = 5;
 // for (let i = 0; i<=num; i++){
 //   sum = sum + i; //sum = 15
-  
+
 // }
 // console.log(sum);
 
 // While Loop
+
+// to print number 1 to 5
 
 // let i =1;
 // while(i<=5){
@@ -208,6 +210,8 @@
 // }
 
 // Do-while
+
+//to print num 1 to 5 by using do while
 
 // let i =1;
 // do{
@@ -222,6 +226,7 @@
 // }while(i<=5);
 
 // For of-loop
+// for of loop is use for string and variables
 
 // let str = "Nimra";
 
@@ -243,6 +248,8 @@
 
 // for in loop
 
+//for in is use for objects
+
 // let student = {
 //   name:"Nimra",
 //   age:20,
@@ -261,6 +268,13 @@
 //   }
 // }
 
+//my bad try by using while for the above code
+// let i =100;
+// while(i=100%2==0){
+// console.log(i);
+// i++
+// }
+
 
 //Q2 Create a game where you start with any random game number. Ask the user to keep gussing the game number until the user enter correct value.
 
@@ -272,21 +286,62 @@
 // }
 // console.log("Congratulation , you enter right number");
 
-let gameNum = 5;
-let userNum = prompt("enter num")
-for (i=0; i==!userNum; ){
-  
-  userNum = prompt("your guess is wrong try again")
+//8 . strings
+//inbuilt properties
+//.length  
+//str.length
+//let nam = "Nimra"
+//console.log(str[0]);
 
- 
+// 9. Template LITERALS ` ` Backticks
 
-}
+//let string =`this is special string`;
+// console.log(string);
+
+// let obj = {
+//   item: "pen",
+//   price: 10,// template literal ma number string ban jata hy
+// };
+
+// let output = `the cost of ${obj.item} is ${obj.price} rupees`;
+// console.log(output);
+
+// 10. string interpolation // backticks ma koi expression add krna
+//to create string by doing  substitution of placeholders
+//`string text$(expression)string text`
+
+//Example of string interpolation
+
+// let string =`this is special string ${1+2+3}`;
+// console.log(string);
+
+//11. escape characters
+// console.log("Nimra\nFatima"); // \n for next line
+// console.log("Nimra\tFatima"); // \t for tab space
+
+//12 . String Methods(functions)
+
+// method is like a block of code jo hamain kuch kam kr k da
+
+// .1 toUpperCase()
+// .2 toLowerCase()
+// .3 trim() // remove whitespace
+
+// let nam = "nimra"
+// console.log(nam.toUpperCase());
+
+//string are immputable
 
 
 
 
 
- 
+
+
+
+
+
+
 
 
 
