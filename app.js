@@ -270,8 +270,11 @@
 
 //my bad try by using while for the above code
 // let i =100;
-// while(i=100%2==0){
+// while(i<=100){
+// let num = i%2===0
+ 
 // console.log(i);
+
 // i++
 // }
 
@@ -325,12 +328,26 @@
 
 // .1 toUpperCase()
 // .2 toLowerCase()
-// .3 trim() // remove whitespace
+// .3 trim() // remove whitespace ending and starting
 
 // let nam = "nimra"
 // console.log(nam.toUpperCase());
 
 //string are immputable
+
+
+//Q1 prompt the user to enter their full name. Generate a username for them based on the input.
+//start username with @, follow by their full name and ending with the fullname length.
+
+//e.g user name =  "nimrafatima" , username shoild be "@nimrafatima12"
+
+let str1 = prompt("enter your full name without spaces");
+let str2 = "@";
+
+let result = str2+str1+str1.length;
+// let size = result.length;
+console.log(result);
+
 
 
 
