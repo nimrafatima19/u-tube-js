@@ -341,13 +341,42 @@
 
 //e.g user name =  "nimrafatima" , username shoild be "@nimrafatima12"
 
-let str1 = prompt("enter your full name without spaces");
-let str2 = "@";
+// let str1 = prompt("enter your full name without spaces");
+// let str2 = "@";
 
-let result = str2+str1+str1.length;
+// let result = str2+str1+str1.length;
 // let size = result.length;
-console.log(result);
+// console.log(result);
 
+// let heading = document.getElementById("heading")
+// let log = document.getElementById("log")
+// function changeColor(){
+//   heading.style.color="red"
+//   heading.style.backgroundColor="yellow"
+//   heading.style.fontSize="4rem"
+//   heading.style.display="none"
+//   log.style.display="block"
+// }
+
+
+let signUp = document.getElementById("signUp")
+let log = document.getElementById("logIn")
+let welcome = document.getElementById("welcome")
+log.style.display="none"
+welcome.style.display="none"
+
+function color(){
+  signUp.style.display="none"
+  log.style.display="block"
+
+
+}
+
+
+function btnlog(){
+  log.style.display="none"
+  welcome.style.display="block"
+}
 
 
 
